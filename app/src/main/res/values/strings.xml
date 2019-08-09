@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="menu_action_done">Done</string>
+
+    <string name="label_retry">Retry</string>
+
+    <string name="dialog_msg_loading">Loading...</string>
+
+    <string name="empty_movies">There are no movies added yet</string>
+
+    <string name="message_general_error">Error happened! please, try again</string>
+    <string name="message_error_connection">Please, check your connection!</string>
+    <string name="message_edit_profile_complete">Edit Profile Complete Success</string>
+    <string name="message_exit">Please click BACK again to exit</string>
+    <string name="message_profile_image_max_size">Image max size is 2 MB!</string>
+    <string name="error_invalid_username_or_password">The username or the password is incorrect, please try again</string>
+    <string name="error_no_authorization">Unauthorized: Access is denied</string>
+    <string name="error_service_unavailable">Service is unavailable now , please try again later</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="str_load_more">Load More...</string>
+
+    <string name="title_popular">Popular</string>
+    <string name="title_top_rated">Top Rated</string>
+    <string name="title_upcoming">Upcoming</string>
+
+    <string name="str_language">Language: </string>
+    <string name="str_vote_average">Vote Average: </string>
+    <string name="str_vote_count">Votes: </string>
+    <string name="str_not_available">N/A</string>
+    <string name="str_overview">Overview</string>
+    <string name="str_status">Status</string>
+    <string name="str_release_date">Release Date</string>
+    <string name="str_original_language">Original Language</string>
+    <string name="str_budget">Budget</string>
+    <string name="str_homepage">Home Page</string>
+    <string name="str_production_company">Production Company</string>
+</resources>

@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "194354559941",
+    "firebase_url": "https://fir-database-aa102.firebaseio.com",
+    "project_id": "fir-database-aa102",
+    "storage_bucket": "fir-database-aa102.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194354559941:android:5094e260ddf78435",
+        "android_client_info": {
+          "package_name": "com.cyber.accounting.movies.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194354559941-o06hbv00p9fohsc6auem044h77bjf2ea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvgseu3ozIEUO87BoDU61Bo9GYf_Vq4BY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194354559941-o06hbv00p9fohsc6auem044h77bjf2ea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194354559941:android:6ae847ac3a0990d9",
+        "android_client_info": {
+          "package_name": "com.example.firebase_database"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194354559941-c6mb1b7g5uh0gnn1mdv412j94v5ohglh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebase_database",
+            "certificate_hash": "7d3215c5693249f4505a3ee21bb502e91b86e76f"
+          }
+        },
+        {
+          "client_id": "194354559941-o06hbv00p9fohsc6auem044h77bjf2ea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvgseu3ozIEUO87BoDU61Bo9GYf_Vq4BY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194354559941-o06hbv00p9fohsc6auem044h77bjf2ea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194354559941:android:dc6cf38e90e602a8",
+        "android_client_info": {
+          "package_name": "com.mazeed.lms.german.learning.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194354559941-o06hbv00p9fohsc6auem044h77bjf2ea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvgseu3ozIEUO87BoDU61Bo9GYf_Vq4BY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194354559941-o06hbv00p9fohsc6auem044h77bjf2ea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

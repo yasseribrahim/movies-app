@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF254385</color>
+    <color name="colorPrimaryDark">#FF162850</color>
+    <color name="colorAccent">#FFEF8732</color>
+
+    <color name="colorPrimary2">#C83A2A</color>
+    <color name="colorPrimaryDark2">#b33426</color>
+    <color name="colorAccent2">#F9A827</color>
+
+    <color name="refreshColor4">#019DCD</color>
+    <color name="refreshColor3">#8CAD4A</color>
+    <color name="refreshColor2">#F47224</color>
+    <color name="refreshColor1">#94257F</color>
+
+    <color name="white">#ffffff</color>
+    <color name="gray">#bfbfbf</color>
+    <color name="gray_dark">#808080</color>
+    <color name="red">#d92225</color>
+    <color name="green">#4ab651</color>
+    <color name="green_light">#78be45</color>
+    <color name="green_dark">#64993e</color>
+    <color name="orange">#f9a827</color>
+    <color name="black">#000000</color>
+    <color name="lightGray">#e1e1e1</color>
+    <color name="lightGray2">#f2f1f1</color>
+    <color name="yellow">#fab326</color>
+
+    <color name="deemed_color">#8A9091</color>
+
+    <color name="gray_star">#c9c9c9</color>
+    <color name="orange_star">#F9A827</color>
+
+    <color name="status_1">#FF4500</color>
+    <color name="status_2">#FF8C00</color>
+    <color name="status_3">#00ad5f</color>
+    <color name="status_4">#4B0082</color>
+    <color name="status_5">#fa4251</color>
+    <color name="status_6">#696969</color>
+</resources>

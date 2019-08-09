@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimens_4dp"
+    android:layout_marginBottom="@dimen/dimens_4dp"
+    android:layout_marginStart="@dimen/dimens_15dp"
+    android:layout_marginEnd="@dimen/dimens_15dp"
+    card_view:cardCornerRadius="@dimen/dimens_3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimens_4dp">
+
+        <com.cyber.accounting.movies.app.presentation.ui.custom.RoundedImageView
+            android:id="@+id/poster"
+            android:layout_width="@dimen/dimens_70dp"
+            android:layout_height="@dimen/dimens_70dp"
+            android:layout_alignParentStart="true"
+            android:scaleType="fitXY"
+            android:layout_centerVertical="true"
+            card_view:srcCompat="@drawable/ic_movie"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimens_3dp"
+            android:layout_marginTop="@dimen/dimens_3dp"
+            android:layout_marginBottom="@dimen/dimens_3dp"
+            android:layout_toStartOf="@+id/marked"
+            android:layout_toEndOf="@+id/poster"
+            android:gravity="start"
+            android:paddingStart="@dimen/dimens_3dp"
+            android:singleLine="true"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <TextView
+            android:id="@+id/overview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginTop="@dimen/dimens_3dp"
+            android:layout_marginStart="@dimen/dimens_3dp"
+            android:layout_toEndOf="@+id/poster"
+            android:gravity="start"
+            android:paddingStart="@dimen/dimens_3dp"
+            android:paddingEnd="@dimen/dimens_3dp"
+            android:singleLine="true"
+            android:text="OverView"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="@dimen/normal_text_size" />
+
+        <ImageView
+            android:id="@+id/marked"
+            android:layout_width="@dimen/dimens_20dp"
+            android:layout_height="@dimen/dimens_20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/dimens_3dp"
+            card_view:srcCompat="@drawable/ic_action_star_marked"/>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/dimens_3dp"
+            android:layout_marginStart="@dimen/dimens_3dp"
+            android:layout_marginEnd="@dimen/dimens_3dp"
+            android:paddingStart="@dimen/dimens_3dp"
+            android:paddingEnd="@dimen/dimens_3dp"
+            android:text="12/5/2012"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:layout_below="@+id/overview"
+            android:textSize="@dimen/normal_text_size"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/vote_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimens_3dp"
+            android:layout_marginStart="@dimen/dimens_3dp"
+            android:layout_marginEnd="@dimen/dimens_3dp"
+            android:paddingStart="@dimen/dimens_3dp"
+            android:paddingEnd="@dimen/dimens_3dp"
+            android:text="Votes 15"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:layout_below="@+id/overview"
+            android:layout_toEndOf="@+id/poster"
+            android:textSize="@dimen/normal_text_size"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimens_3dp"
+            android:layout_marginStart="@dimen/dimens_3dp"
+            android:layout_marginEnd="@dimen/dimens_3dp"
+            android:paddingStart="@dimen/dimens_3dp"
+            android:paddingEnd="@dimen/dimens_3dp"
+            android:text="Language"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:layout_below="@+id/overview"
+            android:layout_toEndOf="@+id/vote_count"
+            android:layout_toStartOf="@+id/date"
+            android:gravity="center"
+            android:textSize="@dimen/normal_text_size"
+            android:textColor="@color/colorPrimaryDark"/>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
